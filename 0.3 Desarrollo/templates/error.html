@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<section class="card"><h1>{{ error.code }} · No se pudo completar la operación</h1><p>{{ error.description }}</p><a href="{{ url_for('index') }}">Volver al inicio</a></section>{% endblock %}
